@@ -2,5 +2,6 @@ const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
 })
 module.exports = withMDX({
-  pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+  target: 'serverless',
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 })
