@@ -11,6 +11,7 @@ type PostProps = {
     title: string
     date: string
     contentHtml: string
+    coverImage: string
   }
 }
 
