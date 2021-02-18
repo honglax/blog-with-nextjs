@@ -80,7 +80,7 @@ const socialData: ISocialData[] = [
 const Footer = () => {
   const { darkMode } = useContext(ThemeContext)
   const socialBlocks = socialData.map(({ id, title, icon }: ISocialData) => (
-    <SocialBlock key={id} title={title} icon={icon} darkMode={darkMode} />
+    <SocialBlock key={id} title={title} icon={icon} />
   ))
   return (
     <FooterWrapper darkMode={darkMode}>
