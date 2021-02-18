@@ -1,7 +1,7 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import Head from 'next/head'
 import { Layout, Date } from '@/components'
-import { getAllPostIds, getPostData } from '@/lib/posts'
+import { getAllPostIds, getPostData } from '@/lib/api/posts'
 import utilStyles from '@/styles/utils.module.scss'
 
 type PostProps = {

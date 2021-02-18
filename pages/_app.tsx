@@ -1,12 +1,14 @@
 import { MDXProvider } from '@mdx-js/react'
+import AppProvider from '@/lib/context'
 import { AppProps } from 'next/app'
-import '@/styles/globals.scss'
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <MDXProvider>
-      <Component {...pageProps} />
-    </MDXProvider>
+    <AppProvider>
+      <MDXProvider>
+        <Component {...pageProps} />
+      </MDXProvider>
+    </AppProvider>
   )
 }
 

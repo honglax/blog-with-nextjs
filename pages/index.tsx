@@ -1,40 +1,32 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import { useContext } from 'react'
 import { GetStaticProps } from 'next'
-import { Layout, siteTitle, Date } from '@/components/'
-import utilStyles from '@/styles/utils.module.scss'
-import { getSortedPostsData } from '@/lib/posts'
+import { Layout, PostPreview } from '@/components/'
+import { ThemeContext } from '@/lib/context'
+import { getSortedPostsData } from '@/lib/api/posts'
 
 type HomeProps = {
   allPostsData: {
     date: string
     title: string
     id: string
+    excerpt: string
   }[]
 }
 
 export default function Home({ allPostsData }: HomeProps) {
+  const { darkMode } = useContext(ThemeContext)
   return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {allPostsData.map(({ id, date, title, excerpt }) => (
+        <PostPreview
+          key={id}
+          darkMode={darkMode}
+          title={title}
+          href={`/posts/${id}`}
+          date={date}
+          excerpt={excerpt}
+        />
+      ))}
     </Layout>
   )
 }
