@@ -17,23 +17,46 @@ const FooterWrapper = styled.div`
   padding: 1.5rem 0;
   display: flex;
   justify-content: center;
-  aligh-items: center;
+  align-items: center;
   background-color: ${({ darkMode }: { darkMode: boolean }) =>
     darkMode ? darkTheme.secondaryBg : lightTheme.secondaryBg};
   font-family: space mono, monospace;
   font-weight: 300;
   letter-spacing: 0;
+
+  @media only screen and (max-width: 1000px) {
+    .footer__container {
+      flex-flow: column;
+    }
+  }
 `
 
 const SocialWrapper = styled.div`
   display: flex;
   flex-flow: row nowrap;
   flex-grow: 1;
+  align-items: center;
+
+  @media only screen and (max-width: 1000px) {
+    justify-content: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid
+      ${({ darkMode }) =>
+        darkMode ? darkTheme.primaryText : lightTheme.hrColor};
+  }
 `
 
 const Copyright = styled.div`
-  display: flex;
-  align-items: center;
+  a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    text-align: center;
+  }
 `
 
 const socialData: ISocialData[] = [
@@ -57,14 +80,21 @@ const socialData: ISocialData[] = [
 const Footer = () => {
   const { darkMode } = useContext(ThemeContext)
   const socialBlocks = socialData.map(({ id, title, icon }: ISocialData) => (
-    <SocialBlock key={id} title={title} icon={icon} />
+    <SocialBlock key={id} title={title} icon={icon} darkMode={darkMode} />
   ))
   return (
     <FooterWrapper darkMode={darkMode}>
-      <Container flexDirection="row">
+      <Container className="footer__container" flexDirection="row">
         <SocialWrapper>{socialBlocks}</SocialWrapper>
         <Copyright>
-          Blog được tạo ra với ❤️&nbsp;dành cho&nbsp;<b>NextJS</b>
+          Blog được tạo ra với ❤️&nbsp;dành cho&nbsp;
+          <a
+            href="https://nextjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            NextJS
+          </a>
         </Copyright>
       </Container>
     </FooterWrapper>

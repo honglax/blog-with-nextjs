@@ -22,7 +22,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   #__next {
-    font-family: Raleway, sans-serif;
+    font-family: Raleway, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,6 +31,11 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }: { theme: ITheme }) => theme.body};
     color: ${({ theme }: { theme: ITheme }) => theme.text};
     transition: all 0.25s linear;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 
   p {

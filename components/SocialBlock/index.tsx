@@ -22,6 +22,20 @@ const BlockWrapper = styled.a`
       font-weight: 700;
     }
   }
+
+  @media only screen and (max-width: 630px) {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+
+    span {
+      margin-left: 0;
+      &.icon {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
 `
 
 const SocialBlock = ({ icon, title }) => (

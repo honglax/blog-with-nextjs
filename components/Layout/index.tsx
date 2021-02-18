@@ -12,7 +12,8 @@ import { Container } from '@/layouts'
 type LayoutProps = { children: React.ReactNode; home?: boolean }
 
 const ChildContainer = styled.div`
-  width: 64rem;
+  width: 100%;
+  max-width: 64rem;
   padding: 1rem;
   margin: 0 auto;
 `

@@ -5,6 +5,7 @@ import MetaHead from './MetaHead'
 import HomeTitle from './HomeTitle'
 import HorizontalSeperator from './HorizontalSeperator'
 import PostPreview from './PostPreview'
+import PostDetail from './PostDetail'
 import SocialBlock from './SocialBlock'
 import Footer from './Footer'
 import { GlobalStyles, light, dark } from './Styles'
@@ -18,6 +19,7 @@ export {
   MetaHead,
   HorizontalSeperator,
   PostPreview,
+  PostDetail,
   SocialBlock,
   Footer,
   ThemeSwitcher,

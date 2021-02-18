@@ -1,8 +1,10 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
+import Link from 'next/link'
 import Head from 'next/head'
-import { Layout, Date } from '@/components'
+import styled from 'styled-components'
+import { FaArrowLeft } from 'react-icons/fa'
+import { Layout, PostDetail } from '@/components'
 import { getAllPostIds, getPostData } from '@/lib/api/posts'
-import utilStyles from '@/styles/utils.module.scss'
 
 type PostProps = {
   postData: {
@@ -12,18 +14,38 @@ type PostProps = {
   }
 }
 
+const BackToHome = styled.div`
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 2rem 0;
+
+  a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  span {
+    margin-left: 1rem;
+  }
+`
+
 const Post = ({ postData }: PostProps) => (
   <Layout>
     <Head>
       <title>{postData.title}</title>
     </Head>
     <article>
-      <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-      <div className={utilStyles.lightText}>
-        <Date dateString={postData.date} />
-      </div>
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <PostDetail {...postData} />
     </article>
+    <BackToHome>
+      <Link href="/">
+        <a>
+          <FaArrowLeft />
+          <span>Quay lại trang chính</span>
+        </a>
+      </Link>
+    </BackToHome>
   </Layout>
 )
 

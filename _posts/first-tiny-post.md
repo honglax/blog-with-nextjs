@@ -8,11 +8,9 @@ có thời gian để dành cho nó."
 date: "2020-10-20"
 ---
 
-Well, bài post đầu tiên của mình lại được viết ngay vào ngày <bold>Phụ nữ Việt
-Nam - 20-10-2020</bold>, khá là thú vị.
-
-Mình đã ấp ủ có một chiếc blog cá nhân từ rất lâu rồi, nhưng đến tận bây giờ mới
-có thời gian để dành cho nó.
+Well, bài post đầu tiên của mình lại được viết ngay vào ngày **Phụ nữ Việt Nam**
+**-** **20-10-2020**, khá là thú vị. Mình đã ấp ủ có một chiếc blog cá nhân từ
+rất lâu rồi, nhưng đến tận bây giờ mới có thời gian để dành cho nó.
 
 Giới thiệu sơ qua một chút về mình nhé. Mình là **Lã Xuân Hồng**, tại thời điểm
 viết post này thì mình đang là **Kỹ sư phần mềm** tại công ty **KMS Technology
@@ -41,8 +39,4 @@ Có lẽ bài viết đầu tiên thì chỉ đến đây thôi, hôm nay là ng
 Nam** nên mình chuẩn bị về để dắt vợ mình đi chơi đây 😊. Hẹn gặp lại mọi người
 trong những bài viết sau này nhé.
 
-```javascript
-const hongla = 'DEV'
-```
-
-Chào thân ái và hẹn gặp lại ✌️.
+<p style="text-align: right;">Chào thân ái và hẹn gặp lại ✌️.</p>
