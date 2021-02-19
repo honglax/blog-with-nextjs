@@ -50,6 +50,11 @@ const PostExcerpt = styled.div`
   font-size: 1.1rem;
   line-height: 1.5;
   text-indent: 5%;
+
+  .read-more {
+    color: ${commonTheme.linkColor};
+    font-weight: 500;
+  }
 `
 
 const PostPreview = ({
@@ -69,7 +74,12 @@ const PostPreview = ({
       <PostOn darkMode={darkMode}>
         <Date dateString={date} />
       </PostOn>
-      <PostExcerpt>{excerpt}...</PostExcerpt>
+      <PostExcerpt>
+        {excerpt}...&nbsp;
+        <Link href={href}>
+          <a className="read-more">Đọc tiếp</a>
+        </Link>
+      </PostExcerpt>
     </PreviewWrapper>
   )
 }

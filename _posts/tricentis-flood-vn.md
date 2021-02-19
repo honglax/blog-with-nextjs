@@ -1,13 +1,13 @@
 ---
 tags: ['Tản mạn', 'Life at KMS']
-title: 'Tricentis Flood - Team Viet Nam'
+title: 'Tricentis Flood - Team Việt Nam'
 excerpt:
   'Xin chào, lại là Hồng đây. Sau khi tạo blog thì việc khiến mình đau đầu nhất là
 suy nghĩ content để viết bài. Gia đình ư? Hơi riêng tư. Suy nghĩ cá nhân ư? Hiện
 tại những suy nghĩ đó khá lộn xộn và mình vẫn chưa sắp xếp nó lại cho ổn định
 được. Sau một hồi suy đi tính lại thì mình quyết định cho các bạn đồng nghiệp
 mình lên sóng đầu tiên. Tadaa, chào mừng bạn đến với Tricentis Flood - Team
-Viet Nam.'
+Việt Nam.'
 date: '2020-10-21'
 ---
 
@@ -16,7 +16,7 @@ suy nghĩ content để viết bài. Gia đình ư? Hơi riêng tư. Suy nghĩ c
 tại những suy nghĩ đó khá lộn xộn và mình vẫn chưa sắp xếp nó lại cho ổn định
 được. Sau một hồi suy đi tính lại thì mình quyết định cho các bạn đồng nghiệp
 mình lên sóng đầu tiên. Tadaa, chào mừng bạn đến với **Tricentis Flood - Team
-Viet Nam**.
+Việt Nam**.
 
 ![Tricentis Flood VN](/images/posts/tricentis-flood.jpg)
 

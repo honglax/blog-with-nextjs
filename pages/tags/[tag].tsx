@@ -1,7 +1,7 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { useContext } from 'react'
 import { ThemeContext } from '@/lib/context'
-import { Layout, PostPreview, TagsBlock } from '@/components'
+import { Layout, PostPreview, TagsBlock, BackToHome } from '@/components'
 import { getAllPostTags, getPostByTag } from '@/lib/api/tags'
 
 const PostsByTags = ({ posts, filteredTag }) => {
@@ -19,6 +19,7 @@ const PostsByTags = ({ posts, filteredTag }) => {
           excerpt={excerpt}
         />
       ))}
+      <BackToHome />
     </Layout>
   )
 }
