@@ -2,8 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
 html {
   width: 100%;
+}
+
+.dark {
+  --backgroundColorPrimary: #2f3437;
+  --backgroundColorSecondary: #3f4447;
+  --backgroundColorThird: #363b3e;
+  --colorPrimary: #ffffff;
+  --colorSecondary: #5f666a;
+}
+
+.light {
+  --backgroundColorPrimary: #ffffff;
+  --backgroundColorSecondary: #f2f2f2;
+  --backgroundColorThird: #f9f9fa;
+  --colorPrimary: #2f3437;
+  --colorSecondary: #5f666a;
 }
 
 .py-05 {
@@ -16,7 +39,7 @@ html {
 }
 
 .markdown p {
-  @apply mt-0 mb-4 text-xl leading-normal;
+  @apply mt-0 mb-4 text-lg leading-normal;
   text-indent: 5%;
 }
 

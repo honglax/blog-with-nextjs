@@ -19,7 +19,7 @@ const darkTheme = {
 
 // Common which is used by both theme
 const commonTheme = {
-  linkColor: '#e74c3c',
+  linkColor: '#6987a0',
 }
 
 export { lightTheme, darkTheme, commonTheme }

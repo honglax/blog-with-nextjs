@@ -37,7 +37,7 @@ const Layout = ({ children, home, post }: LayoutProps) => {
   return (
     <>
       <MetaHead {...siteMetaData} />
-      <Container flexGrow={1}>
+      <Container flexGrow={1} className={darkMode ? 'dark' : 'light'}>
         <HomeHeader image={image} siteTitle={siteTitle} />
         {home ? (
           <>

@@ -24,6 +24,18 @@ const LogoWrapper = styled.a`
   cursor: pointer;
 `
 
+const RightNavWrapper = styled.div`
+  display: flex;
+  flex-direction: row nowrap;
+  align-items: center;
+
+  a {
+    cursor: pointer;
+    margin-right: 1.5rem;
+    font-weight: 600;
+  }
+`
+
 const HomeHeader = ({ image, siteTitle }: HeaderProps) => (
   <HeaderWrapper>
     <Link href="/">
@@ -31,7 +43,12 @@ const HomeHeader = ({ image, siteTitle }: HeaderProps) => (
         <img src={image} alt={siteTitle} />
       </LogoWrapper>
     </Link>
-    <ThemeSwitcher />
+    <RightNavWrapper>
+      <Link href="/about-me">
+        <a>Mình là ai?</a>
+      </Link>
+      <ThemeSwitcher />
+    </RightNavWrapper>
   </HeaderWrapper>
 )
 

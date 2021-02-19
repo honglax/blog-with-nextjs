@@ -55,14 +55,6 @@ const PostCoverWrapper = styled.div`
   }
 `
 
-const PostContentWrapper = styled.div`
-  @media only screen and (max-width: 576px) {
-    p {
-      font-size: 1.125rem;
-    }
-  }
-`
-
 const PostDetail = ({ title, date, contentHtml, coverImage }: PostProps) => {
   const { darkMode } = useContext(ThemeContext)
   return (
@@ -77,7 +69,7 @@ const PostDetail = ({ title, date, contentHtml, coverImage }: PostProps) => {
           alt={title}
         />
       </PostCoverWrapper>
-      <PostContentWrapper
+      <div
         className="markdown"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />

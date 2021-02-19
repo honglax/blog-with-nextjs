@@ -87,15 +87,17 @@ const socialData: ISocialData[] = [
 
 const Footer = () => {
   const { darkMode } = useContext(ThemeContext)
-  const socialBlocks = socialData.map(({ id, title, icon }: ISocialData) => (
-    <SocialBlock key={id} title={title} icon={icon} />
-  ))
+  const socialBlocks = socialData.map(
+    ({ id, title, icon, href }: ISocialData) => (
+      <SocialBlock key={id} title={title} icon={icon} href={href} />
+    )
+  )
   return (
     <FooterWrapper darkMode={darkMode}>
       <Container className="footer__container" flexDirection="row">
         <SocialWrapper>{socialBlocks}</SocialWrapper>
         <Copyright>
-          Blog được tạo ra với ❤️&nbsp;dành cho&nbsp;
+          Blog được tạo ra với&nbsp;❤️&nbsp;dành cho&nbsp;
           <a
             href="https://nextjs.org/"
             target="_blank"

@@ -72,4 +72,4 @@ Mình hi vọng bạn cũng sẽ không bao giờ từ bỏ đam mê của mình
 
 Chúc bạn một tuần làm việc tràn ngập năng lượng và thành công.
 
-<p style="text-align: right;">Peace ✌️</p>
+<p class="text-right">Peace ✌️</p>
