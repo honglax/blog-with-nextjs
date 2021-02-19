@@ -58,4 +58,4 @@ rất nhiều các bạn đồng nghiệp khác mặc dù không cùng team như
 mình thì mình sẽ hẹn lên vào một dịp khác nhen. Còn bây giờ thì chào thân ái và
 hẹn gặp lại.
 
-<p class="text-right">Peace ✌️</p>
+<p class="text-align-right">Peace ✌️</p>

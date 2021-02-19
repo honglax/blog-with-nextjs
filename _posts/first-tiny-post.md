@@ -43,4 +43,4 @@ trong những bài viết sau này nhé.
 console.log('Hello World')
 ```
 
-<p class="text-right">Chào thân ái và hẹn gặp lại ✌️.</p>
+<p class="text-align-right">Chào thân ái và hẹn gặp lại ✌️.</p>

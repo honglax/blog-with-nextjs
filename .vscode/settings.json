@@ -1,4 +1,7 @@
 {
   "css.validate": false, // Disable css built-in lint
-  "stylelint.enable": true // Enable sytlelint
+  "stylelint.enable": true,
+  "markdownlint.config": {
+    "MD033": false
+  } // Enable sytlelint
 }
