@@ -10,6 +10,7 @@ interface ISocialData {
   id: number
   title: string
   icon: JSX.Element
+  href: string
 }
 
 interface ISocialWrapper {
@@ -68,16 +69,19 @@ const socialData: ISocialData[] = [
     id: 1,
     title: 'Hong La',
     icon: <FaCat />,
+    href: 'https://hongla.dev',
   },
   {
     id: 2,
     title: 'Github',
     icon: <FaGithub />,
+    href: 'https://github.com/honglax',
   },
   {
     id: 3,
     title: 'LinkedIn',
     icon: <FaLinkedin />,
+    href: 'https://www.linkedin.com/in/hongla/',
   },
 ]
 

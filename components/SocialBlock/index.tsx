@@ -38,8 +38,13 @@ const BlockWrapper = styled.a`
   }
 `
 
-const SocialBlock = ({ icon, title }) => (
-  <BlockWrapper>
+const SocialBlock = ({ icon, title, href }) => (
+  <BlockWrapper
+    title={title}
+    href={href}
+    target="_blank"
+    rel="noreferrer noopener"
+  >
     <span className="icon">{icon}</span>
     <span>{title}</span>
   </BlockWrapper>
