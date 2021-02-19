@@ -20,6 +20,25 @@ const ContentWrapper = styled.div`
   }
 `
 
+const EmailButton = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: ${commonTheme.linkColor};
+  border: 3px solid ${commonTheme.linkColor};
+  border-radius: 50px;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: box-shadow 0.3s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+  width: 15rem;
+  margin: 10vh auto 5vh;
+  padding: 1rem;
+
+  &:hover {
+    box-shadow: 0 0.5rem 0 0 ${commonTheme.linkColor};
+  }
+`
+
 const AboutMe = () => (
   <Layout>
     <Head>
@@ -54,6 +73,9 @@ const AboutMe = () => (
         vào chiếc nút nhỏ phía dưới. Mình sẽ rất vui nếu được làm quen cùng bạn.
       </p>
     </ContentWrapper>
+    <EmailButton href="mailto:hongla.html@gmail.com">
+      <FaPaperPlane />
+    </EmailButton>
   </Layout>
 )
 
