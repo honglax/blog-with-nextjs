@@ -8,6 +8,7 @@ import PostPreview from './PostPreview'
 import PostDetail from './PostDetail'
 import SocialBlock from './SocialBlock'
 import Footer from './Footer'
+import BackToHome from './BackToHome'
 import { GlobalStyles, light, dark } from './Styles'
 import ThemeSwitcher from './ThemeSwitcher'
 
@@ -22,6 +23,7 @@ export {
   PostDetail,
   SocialBlock,
   Footer,
+  BackToHome,
   ThemeSwitcher,
   GlobalStyles,
   light,
