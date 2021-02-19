@@ -8,6 +8,7 @@ mình chưa biết sắp xếp chúng như thế nào cho hợp lý. Hôm nay l�
 tuần, công việc đầu tiên mình thường làm sau khi thức dậy đó chính là......mở
 mắt ra.'
 date: '2020-10-26'
+coverImage: '/images/posts/surprise.gif'
 ---
 
 Chào mọi người, Hồng đây. Bữa giờ bí ý tưởng quá nên không có một blog mới nào.
