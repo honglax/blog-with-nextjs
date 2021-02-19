@@ -22,6 +22,9 @@ const ChildContainer = styled.div<IChildContainerProps>`
   max-width: 64rem;
   padding: 1rem;
   margin: 0 auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 
   @media only screen and (max-width: 576px) {
     padding: 1rem ${({ post }) => (post ? '0' : '0.5rem')};
