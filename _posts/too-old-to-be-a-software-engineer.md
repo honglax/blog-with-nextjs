@@ -1,13 +1,13 @@
 ---
-tag: "Tản mạn"
-title: "Mình đã quá già để bắt đầu con đường sự nghiệp lập trình viên?"
+tags: ['Tản mạn']
+title: 'Mình đã quá già để bắt đầu con đường sự nghiệp lập trình viên?'
 excerpt:
-    "Chào mọi người, Hồng đây. Bữa giờ bí ý tưởng quá nên không có một blog mới nào.
+    'Chào mọi người, Hồng đây. Bữa giờ bí ý tưởng quá nên không có một blog mới nào.
 Nói bí thật ra cũng không hẳn là đúng. Chính xác hơn là quá nhiều ý tưởng và
 mình chưa biết sắp xếp chúng như thế nào cho hợp lý. Hôm nay là ngày thứ hai đầu
 tuần, công việc đầu tiên mình thường làm sau khi thức dậy đó chính là......mở
-mắt ra."
-date: "2020-10-26"
+mắt ra.'
+date: '2020-10-26'
 ---
 
 Chào mọi người, Hồng đây. Bữa giờ bí ý tưởng quá nên không có một blog mới nào.
@@ -72,4 +72,4 @@ Mình hi vọng bạn cũng sẽ không bao giờ từ bỏ đam mê của mình
 
 Chúc bạn một tuần làm việc tràn ngập năng lượng và thành công.
 
-<p class="text-align-right">Peace ✌️</p>
+<p class='text-align-right'>Peace ✌️</p>

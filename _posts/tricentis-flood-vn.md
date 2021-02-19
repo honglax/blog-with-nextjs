@@ -1,5 +1,5 @@
 ---
-tag: 'Life at KMS'
+tags: ['Tản mạn', 'Life at KMS']
 title: 'Tricentis Flood - Team Viet Nam'
 excerpt:
   'Xin chào, lại là Hồng đây. Sau khi tạo blog thì việc khiến mình đau đầu nhất là

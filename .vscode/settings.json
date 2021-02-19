@@ -3,5 +3,6 @@
   "stylelint.enable": true,
   "markdownlint.config": {
     "MD033": false
-  } // Enable sytlelint
+  },
+  "editor.formatOnSave": true // Enable sytlelint
 }

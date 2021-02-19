@@ -1,11 +1,11 @@
 ---
-tag: "Tản mạn"
-title: "Mở hàng chiếc blog bé tẹo teo"
+tags: ['Tản mạn']
+title: 'Mở hàng chiếc blog bé tẹo teo'
 excerpt:
-    "Well, bài post đầu tiên của mình lại được viết ngay vào ngày Phụ nữ Việt Nam -
+    'Well, bài post đầu tiên của mình lại được viết ngay vào ngày Phụ nữ Việt Nam -
 20-10-2020, khá là thú vị. Mình đã ấp ủ có một chiếc blog cá nhân từ rất lâu rồi, nhưng đến tận bây giờ mới
-có thời gian để dành cho nó."
-date: "2020-10-20"
+có thời gian để dành cho nó.'
+date: '2020-10-20'
 ---
 
 Well, bài post đầu tiên của mình lại được viết ngay vào ngày **Phụ nữ Việt Nam**
@@ -39,4 +39,4 @@ Có lẽ bài viết đầu tiên thì chỉ đến đây thôi, hôm nay là ng
 Nam** nên mình chuẩn bị về để dắt vợ mình đi chơi đây 😊. Hẹn gặp lại mọi người
 trong những bài viết sau này nhé.
 
-<p class="text-align-right">Chào thân ái và hẹn gặp lại ✌️.</p>
+<p class='text-align-right'>Chào thân ái và hẹn gặp lại ✌️.</p>

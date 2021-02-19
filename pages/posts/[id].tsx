@@ -1,6 +1,6 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import Head from 'next/head'
-import { Layout, PostDetail, BackToHome } from '@/components'
+import { Layout, PostDetail, BackToHome, TagsBlock } from '@/components'
 import { getAllPostIds, getPostData } from '@/lib/api/posts'
 
 type PostProps = {
@@ -9,6 +9,7 @@ type PostProps = {
     date: string
     contentHtml: string
     coverImage: string
+    tags: { original: string; normalized: string }[]
   }
 }
 
@@ -20,6 +21,7 @@ const Post = ({ postData }: PostProps) => (
     <article>
       <PostDetail {...postData} />
     </article>
+    <TagsBlock tags={postData.tags} />
     <BackToHome />
   </Layout>
 )
