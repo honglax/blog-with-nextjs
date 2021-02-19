@@ -12,6 +12,10 @@ interface ISocialData {
   icon: JSX.Element
 }
 
+interface ISocialWrapper {
+  darkMode?: boolean
+}
+
 const FooterWrapper = styled.div`
   width: 100vw;
   padding: 1.5rem 0;
@@ -31,7 +35,7 @@ const FooterWrapper = styled.div`
   }
 `
 
-const SocialWrapper = styled.div`
+const SocialWrapper = styled.div<ISocialWrapper>`
   display: flex;
   flex-flow: row nowrap;
   flex-grow: 1;

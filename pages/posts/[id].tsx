@@ -29,10 +29,14 @@ const BackToHome = styled.div`
   span {
     margin-left: 1rem;
   }
+
+  @media only screen and (max-width: 576px) {
+    font-size: 1rem;
+  }
 `
 
 const Post = ({ postData }: PostProps) => (
-  <Layout>
+  <Layout post>
     <Head>
       <title>{postData.title}</title>
     </Head>

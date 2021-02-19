@@ -12,7 +12,7 @@ const SwitcherWrapper = styled.div`
   border-radius: 0.5rem;
   padding: 0.5rem;
   cursor: pointer;
-  background-color: ${(props) =>
+  background-color: ${(props: { darkMode: boolean }) =>
     props.darkMode ? darkTheme.secondaryBg : lightTheme.secondaryBg};
 `
 

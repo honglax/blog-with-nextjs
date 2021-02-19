@@ -23,6 +23,7 @@ const PostTitle = styled.div`
   font-size: 1.75rem;
   line-height: 1.5;
   font-weight: 700;
+  margin-bottom: 0.5rem;
 
   a {
     text-decoration: none;
@@ -36,7 +37,7 @@ const PostTitle = styled.div`
 
 const PostOn = styled.small`
   font-size: 0.9rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
   font-weight: 300;
 
   time {
@@ -48,6 +49,7 @@ const PostOn = styled.small`
 const PostExcerpt = styled.div`
   font-size: 1.1rem;
   line-height: 1.5;
+  text-indent: 5%;
 `
 
 const PostPreview = ({

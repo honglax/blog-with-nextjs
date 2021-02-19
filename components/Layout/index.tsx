@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { useContext } from 'react'
+import { ThemeContext } from '@/lib/context'
 import {
   MetaHead,
   HomeHeader,
@@ -9,17 +11,26 @@ import {
 import siteMetaData from '@/lib/data'
 import { Container } from '@/layouts'
 
-type LayoutProps = { children: React.ReactNode; home?: boolean }
+type LayoutProps = { children: React.ReactNode; home?: boolean; post?: boolean }
 
-const ChildContainer = styled.div`
+interface IChildContainerProps {
+  post?: boolean
+}
+
+const ChildContainer = styled.div<IChildContainerProps>`
   width: 100%;
   max-width: 64rem;
   padding: 1rem;
   margin: 0 auto;
+
+  @media only screen and (max-width: 576px) {
+    padding: 1rem ${({ post }) => (post ? '0' : '0.5rem')};
+  }
 `
 
-const Layout = ({ children, home }: LayoutProps) => {
+const Layout = ({ children, home, post }: LayoutProps) => {
   const { title, siteTitle, author, headDescription, image } = siteMetaData
+  const { darkMode } = useContext(ThemeContext)
   return (
     <>
       <MetaHead {...siteMetaData} />
@@ -32,13 +43,13 @@ const Layout = ({ children, home }: LayoutProps) => {
               author={author}
               description={headDescription}
             />
-            <HorizontalSeperator />
+            <HorizontalSeperator darkMode={darkMode} />
           </>
         ) : (
           <></>
         )}
 
-        <ChildContainer>{children}</ChildContainer>
+        <ChildContainer post={post}>{children}</ChildContainer>
       </Container>
       <Footer />
     </>

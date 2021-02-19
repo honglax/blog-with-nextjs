@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 
-const Container = styled.div`
+interface IContainerProps {
+  flexDirection?: string
+  justifyContent?: string
+  flexGrow?: number
+}
+
+const Container = styled.div<IContainerProps>`
   width: 100%;
   max-width: 72rem;
   min-width: 20rem;

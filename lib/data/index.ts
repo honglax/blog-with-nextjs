@@ -15,7 +15,7 @@ const siteMetaData = {
   description:
     'Just a simple blog of a normal guy who falls madly in love with the cat, the cactus, and the sunflower.',
   headDescription:
-    'Đây là góc nhỏ, nơi mình trải lòng về công việc cũng như cuộc sống',
+    'Đây là góc nhỏ, nơi mình trải lòng về chuyện đời, chuyện nghề, và đủ thứ khác',
   url: 'https://hongla.dev',
   image: '/images/icon-cat.svg',
 }

@@ -18,6 +18,10 @@ const PostTitle = styled.h1`
   margin: 1rem 0;
   text-transform: capitalize;
   color: ${commonTheme.linkColor};
+
+  @media only screen and (max-width: 576px) {
+    font-size: 2rem;
+  }
 `
 
 const PostOn = styled.p`
@@ -31,6 +35,10 @@ const PostOn = styled.p`
     color: ${(props: { darkMode: boolean }) =>
       props.darkMode ? darkTheme.secondaryText : lightTheme.secondaryText};
   }
+
+  @media only screen and (max-width: 576px) {
+    font-size: 0.85rem;
+  }
 `
 
 const PostCoverWrapper = styled.div`
@@ -39,6 +47,19 @@ const PostCoverWrapper = styled.div`
 
   img {
     margin: 0 auto;
+    border-radius: 0.5rem;
+  }
+
+  @media only screen and (max-width: 576px) {
+    margin-bottom: 1rem;
+  }
+`
+
+const PostContentWrapper = styled.div`
+  @media only screen and (max-width: 576px) {
+    p {
+      font-size: 1.125rem;
+    }
   }
 `
 
@@ -56,7 +77,7 @@ const PostDetail = ({ title, date, contentHtml, coverImage }: PostProps) => {
           alt={title}
         />
       </PostCoverWrapper>
-      <div
+      <PostContentWrapper
         className="markdown"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />

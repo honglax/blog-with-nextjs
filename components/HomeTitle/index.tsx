@@ -29,7 +29,7 @@ const Description = styled.h4`
   margin: 0;
 `
 
-const HomeTitle = ({ title, author, description }: HomeTitleProps) => (
+const HomeTitle = ({ title, description }: HomeTitleProps) => (
   <TitleWrapper>
     <Title>{title}</Title>
     <Description>{description}</Description>
