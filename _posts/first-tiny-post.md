@@ -39,8 +39,4 @@ Có lẽ bài viết đầu tiên thì chỉ đến đây thôi, hôm nay là ng
 Nam** nên mình chuẩn bị về để dắt vợ mình đi chơi đây 😊. Hẹn gặp lại mọi người
 trong những bài viết sau này nhé.
 
-```javascript
-console.log('Hello World')
-```
-
 <p class="text-align-right">Chào thân ái và hẹn gặp lại ✌️.</p>
