@@ -69,7 +69,7 @@ const PostPreview = ({
       <PostOn darkMode={darkMode}>
         <Date dateString={date} />
       </PostOn>
-      <PostExcerpt>{excerpt}</PostExcerpt>
+      <PostExcerpt>{excerpt}...</PostExcerpt>
     </PreviewWrapper>
   )
 }
