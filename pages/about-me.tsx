@@ -58,8 +58,7 @@ const AboutMe = () => (
       />
       <ContentWrapper>
         <p>
-          Xin chào, mình là Xuân Hồng, mình hiện đang làm{' '}
-          <span>Software Engineer</span> tại công ty{' '}
+          Xin chào, mình là Xuân Hồng. Gia đình mình có truyền thống rất dễ thương đó là theo nghiệp Kỹ sư. Ba là <span>Kỹ sư thủy lợi</span>, mẹ là <span>Kỹ sư xây dựng</span>. Còn mình là <span>Kỹ sư phần mềm</span> - hiện đang làm việc tại công ty{' '}
           <span>KMS Technology Việt Nam</span>.
         </p>
         <p>

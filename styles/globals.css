@@ -39,7 +39,23 @@ html {
 }
 
 .markdown {
-  @apply w-full leading-normal text-main mt-4;
+  @apply w-full leading-normal text-main mt-4 flex flex-col;
+}
+
+.markdown img {
+  @apply m-0 ml-auto mr-auto;
+}
+
+.markdown .styled-horizontal-seperator {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: #e2e8f0;
+  margin-top: 1rem;
+}
+
+.dark .markdown .styled-horizontal-seperator {
+  background-color: #fff
 }
 
 .markdown p {

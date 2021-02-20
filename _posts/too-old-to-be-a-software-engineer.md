@@ -1,6 +1,6 @@
 ---
 tags: ['Tản mạn']
-title: 'Mình đã quá già để bắt đầu con đường sự nghiệp lập trình viên?'
+title: 'Mình đã quá già để bắt đầu con đường sự nghiệp kỹ sư phần mềm?'
 excerpt:
     'Chào mọi người, Hồng đây. Bữa giờ bí ý tưởng quá nên không có một blog mới nào.
 Nói bí thật ra cũng không hẳn là đúng. Chính xác hơn là quá nhiều ý tưởng và
@@ -36,13 +36,13 @@ Còn bạn nào nếu tò mò quá muốn biết ngay lập tức thì có thể
 Lan man đủ rồi, quay lại vấn đề chính nhé. Theo một nghiên cứu được thực hiện
 trên
 [**Stack Overflow**](https://www.freecodecamp.org/news/2-out-of-3-developers-are-self-taught-and-other-insights-from-stack-overflow-s-2016-survey-of-50-8cf0ee5d4c21/)
-thì độ tuổi trung bình của lập trình viên là **29.6** và **trên 50%** lập trình
+thì độ tuổi trung bình của kỹ sư phần mềm là **29.6** và **trên 50%** lập trình
 viên đều **nhỏ hơn 30 tuổi**. Như ở bài viết giới thiệu về thành viên team
 [**Tricentis Flood VN**](https://blog.hongla.dev/blog/tricentis-flood-vn-team/)
 thì 8/12 thành viên đều nhỏ tuổi hơn mình và các bạn ấy đều có ít nhất 2 đến 3
 năm kinh nghiệm. Khi bước vào team thì mình có một sự tủi thân khá nhẹ khi cảm
 thấy bản thân thua thiệt các bạn trẻ thời nay quá nhiều. Thường thì đối với một
-lập trình viên, tuổi 29 là lứa tuổi đang vào độ chín của sự nghiệp, bắt đầu gặt
+kỹ sư phần mềm, tuổi 29 là lứa tuổi đang vào độ chín của sự nghiệp, bắt đầu gặt
 hái được những thành công nhất định. Nên đôi lúc mình cũng tự hỏi bản thân rằng,
 liệu mình có đúng khi vẫn kiên định theo đuổi đam mê từ thuở nhỏ?
 
@@ -54,20 +54,20 @@ bước từ nhỏ nên mình vẫn vượt qua được. Một điều mình t�
 với các bạn trẻ khác là mình có thể có nhiều va chạm trong cuộc sống và có nhiều
 kỹ năng mềm có thể giúp ích cho mình trong công việc. Tất nhiên về mặt kỹ thuật
 thì mình phải đầu tư thêm thật nhiều chất xám hơn để có thể đuổi kịp các bạn ấy.
-Và cũng có một điều luôn giúp mình không bỏ cuộc đó là vợ mình. Cô ấy luôn ở bên
-cạnh và động viên mình vào những thời khắc mà mình chỉ muốn biến mất khỏi thế
-giới xung quanh và cuộc mình lại trong không gian của riêng mình. Gia đình nhỏ
-của mình chính là động lực chính để mình dẹp bỏ hết mặc cảm tự ti của bản thân
-để có thể đi tiếp con đường này.
+Và cũng có một điều luôn giúp mình không bỏ cuộc đó là vợ mình. Bạn ấy luôn ở
+bên cạnh và động viên mình vào những thời khắc mà mình chỉ muốn biến mất khỏi
+thế giới xung quanh và cuộn mình lại trong không gian của riêng mình. Gia đình
+nhỏ của mình chính là động lực chính để mình dẹp bỏ hết mặc cảm tự ti của bản
+thân để có thể đi tiếp con đường này.
 
 Thật sự khi nhìn lại mọi thứ, mình nhận ra chẳng bao giờ là quá muộn để bắt đầu
-sự nghiệp trở thành một lập trình viên hay bất cứ một ngành nghề nào cả. Bạn có
+sự nghiệp trở thành một kỹ sư phần mềm hay bất cứ một ngành nghề nào cả. Bạn có
 thể là một học sinh trung học, bạn có thể là sinh viên, hay thậm chí bạn đã qua
 lứa tuổi 30, bạn hoàn toàn có thể bắt đầu bất cứ điều gì miễn bạn có đam mê và
 quyết tâm đạt được điều đó dù phải trải qua khó khăn hay thử thách như thế nào.
 Hãy tìm cho mình một mục tiêu, một động lực, bắt đầu với điều bạn đam mê và
 quyết tâm theo đuổi nó đến cùng, có thể bạn sẽ thất bại, nhưng không sao cả,
-phải thất bại thì mới biết cách để thành công. Mình là Hồng, một lập trình viên
+phải thất bại thì mới biết cách để thành công. Mình là Hồng, một kỹ sư phần mềm
 29 tuổi với chỉ hơn 1 năm kinh nghiệm nhưng mình sẽ không bao giờ chùn bước.
 Mình hi vọng bạn cũng sẽ không bao giờ từ bỏ đam mê của mình.
 
