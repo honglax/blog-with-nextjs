@@ -3,16 +3,13 @@ tags: ['Chuyện đời', 'Tản mạn', 'Life at KMS']
 title: 'Cùng nhìn lại năm 2020 (2020 Rewind)'
 excerpt:
   'Mình nghe nói năm nay Youtube không làm Youtube Rewind như mọi năm, mình bỗng
-  nảy ra ý định hay là bản thân mình sẽ làm một cái để tua lại những khoảnh khắc
-  đáng nhớ nhất đối với mình trong năm 2020. Và thế là bài viết này ra đời này
-  ra đời.'
+nảy ra ý định hay là bản thân mình sẽ làm một cái để nhìn lại những khoảnh khắc
+đáng nhớ nhất đối với mình trong năm 2020. Còn chờ gì nữa, bắt đầu thôi.'
 date: '2020-12-23'
 coverImage: '/images/posts/2020-rewind/cover.jpg'
 ---
 
-Mình nghe nói năm nay **Youtube** không làm **Youtube Rewind** như mọi năm, mình bỗng
-nảy ra ý định hay là bản thân mình sẽ làm một cái để nhìn lại những khoảnh khắc
-đáng nhớ nhất đối với mình trong năm 2020. Còn chờ gì nữa, bắt đầu thôi.
+Mình nghe nói năm nay **Youtube** không làm **Youtube Rewind** như mọi năm, mình bỗng nảy ra ý định hay là bản thân mình sẽ làm một cái để nhìn lại những khoảnh khắc đáng nhớ nhất đối với mình trong năm 2020. Còn chờ gì nữa, bắt đầu thôi.
 
 ## 01/01/2020
 
