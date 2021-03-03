@@ -31,14 +31,16 @@ Với vai trò là một **Kỹ sư phần mềm** và làm việc nhiều với
 
 ## Quy trình render một website có thể được chia thành các giai đoạn chính như sau
 
- 1. Phân tích cú pháp **HTML**.
- 2. Fetch những tài nguyên từ bên ngoài hệ thống.
- 3. Parse cú pháp **CSS** và xây dựng **CSSOM**.
- 4. Thực thi JavaScript.
- 5. Kết hợp **DOM** và **CSSOM** để tạo ra **Render tree**.
- 6. Tính toán bố cục và **render website**.
+ 1. [Phân tích cú pháp **HTML**.](#step-1)
+ 2. [Fetch những tài nguyên từ bên ngoài hệ thống.](#step-2)
+ 3. [Parse cú pháp **CSS** và xây dựng **CSSOM**.](#step-3)
+ 4. [Thực thi **JavaScript**.](http://blog.hongla.dev/posts/how-browser-renders-a-web-page-p2#step-4)
+ 5. [Hợp nhất **DOM** và **CSSOM** để xây dựng **Render tree**.](http://blog.hongla.dev/posts/how-browser-renders-a-web-page-p2#step-5)
+ 6. [Tính toán bố cục và **render website**.](http://blog.hongla.dev/posts/how-browser-renders-a-web-page-p2#step-6).
 
-## Giai đoạn 1: Phân tích cú pháp HTML
+### Trong phần 1 này, chúng ta sẽ tìm hiểu từ giai đoạn 1 đến giai đoạn 3.
+
+## <a name='step-1'></a> Giai đoạn 1: Phân tích cú pháp HTML
 
 ![Phân tích cú pháp HTML](/images/posts/how-browser-renders-a-web-page/step-1.png)
 
@@ -46,7 +48,7 @@ Khi một trình duyệt bắt đầu nhận dữ liệu **HTML** của một we
 
 Bước đầu tiên của quá trình **parse** này là chia nhỏ **HTML** thành các mã thông báo đại diện cho thẻ bắt đầu (ví dụ: **&lt;html&gt;**), thẻ kết thúc (ví dụ: **&lt;/html&gt;**) và nội dung của chúng. Từ đó nó có thể xây dựng lên **DOM**.
 
-## Giai đoạn 2: Fetch những tài nguyên từ bên ngoài hệ thống
+## <a name='step-2'></a> Giai đoạn 2: Fetch những tài nguyên từ bên ngoài hệ thống
 
 ![Fetch những tài nguyên từ bên ngoài hệ thống](/images/posts/how-browser-renders-a-web-page/step-2.png)
 
@@ -85,7 +87,7 @@ Khi truy cập một website, các trình duyệt sẽ gửi nội dung của fi
 
 Đi kèm với **preload** thì chúng ta sẽ có attribute `as` đi kèm giúp trình duyệt nhận biết kiểu của tài nguyên đang được ưu tiên tải về là gì. Các giá trị của as được liệt kê tại [đây](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attributes).
 
-## Giai đoạn 3: Parse cú pháp CSS và xây dựng CSSOM
+## <a name='step-3'></a> Giai đoạn 3: Parse cú pháp CSS và xây dựng CSSOM
 
 ![Parse cú pháp CSS và xây dựng CSSOM](/images/posts/how-browser-renders-a-web-page/step-3.jpeg)
 
@@ -97,4 +99,4 @@ Tương tự như **DOM** và các file **HTML**, khi các file **CSS** được
 
 Điểm khác biệt của **CSSOM** với **DOM** là nó không thể được xây dựng một cách tăng dần, vì các quy tắc **CSS** có thể ghi đè lẫn nhau ở nhiều điểm khác nhau hoặc nhiều file khác nhau do tính [đặc thù của CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity). Đây là lý do tại sao **CSS** làm quá trình render website bị chặn, vì chỉ khi nào tất cả **CSS** được parse cú pháp và **CSSOM** được xây dựng thành công, thì trình duyệt mới biết được vị trí và vị trí của từng phần tử (element) trên màn hình.
 
-<p style="margin-top: 2rem!important;">Còn tiếp...</p>
+<p style="margin-top: 2rem!important;">Đọc tiếp <span><a href='https://blog.hongla.dev/posts/how-browser-renders-a-web-page-p2' rel='noreferrer noopener' target='_blank'>phần 2</a></span></p>
